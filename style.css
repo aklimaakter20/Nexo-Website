@@ -154,3 +154,73 @@ nav ul li a:hover{
 .service-single p{
     font-size: 12px;
 }
+
+/* work-section-start */
+.work-section{
+    padding: 60px 150px;
+}
+.work-all-info{
+    display: flex; 
+}
+.work-info-des{
+    font-size: 12px;
+}
+.work-image-position{
+   position: relative;
+ 
+
+}
+.work-image{
+  width: 400px;
+  height: 400px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.13);
+}
+.work-image-bg{
+ width: 400px;
+ height: 400px;
+ background-color: #5257C9;
+ position: absolute;
+ right: 35px;
+ top: 35px;
+ z-index: -1;
+  box-shadow: 10px 10px 5px 10px rgba(0,0,0,0.13);
+
+}
+
+.work-info{
+    padding: 10px 80px;
+}
+.work-heading{
+    font-size: 28px;
+    font-weight: 500;
+    color: #303030;
+}
+.work-info-des{
+    color: #30303D;
+}
+.work-single{
+    display: flex; 
+}
+.work-details{
+    display: flex;
+    align-items: first baseline;
+    gap: 20px;
+    margin-top: 30px;
+}
+.work-subHeading{
+    font-size: 24px;
+    font-weight: 500;
+}
+.work-des{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #30303D;
+
+}
+.work-details i{
+    font-size: 30px;
+    color: #999CE3;
+}
+.work-flex{
+    display: flex;
+}
