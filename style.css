@@ -2,6 +2,7 @@
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 nav{
     background-color: #6B9DD5;
@@ -110,4 +111,46 @@ nav ul li a:hover{
     color: #5257C9;
     font-weight: 500;
     transition: 2s;
+}
+/* service section start */
+.service-section{
+    padding: 140px 160px;
+
+}
+.service-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.service-single{
+    padding: 0 30px;
+    text-align: center;
+}
+.service-single i{
+    font-size: 22px;
+    background-color: #A3B6F8;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    border: 10px solid  #CED9FB;
+}
+.service-single i:hover{
+    background-color: white;
+    border: 1px solid #6B9DD5;
+    color: #5257C9;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 2s;
+}
+.service-single h4{
+    padding: 8px 0;
+    color: #303030;
+    font-weight: 500;
+}
+.service-single h4:hover{
+    color: #5257C9;
+    transition: 2s;
+}
+.service-single p{
+    font-size: 12px;
 }
