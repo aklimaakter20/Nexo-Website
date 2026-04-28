@@ -346,3 +346,57 @@ button i{
 .achievement-single span{
     font-size: 20px;
 }
+/* features-main-div */
+.features-main-div{
+    display: flex;
+    gap: 60px;
+    padding: 80px 140px;
+}
+.features-right{
+    margin: 20px 0;
+    position: relative;
+}
+.features-right-heading{
+    color: #303030;
+}
+.features-right-des{
+    margin: 25px 0;
+}
+.features-single-info{
+    display: grid;
+    gap: 30px;
+    color: #303030;
+}
+.features-single-info :hover{
+   color: #6B9DD5;
+   transition: 1s;
+}
+.features-single-info i{
+    margin-right: 15px;
+    font-size: 24px;
+}
+.features-right-mini-div{
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid #E3E3E3;
+    padding: 30px;
+  
+}
+.features-right-mini-div i{
+    font-size: 30px;
+    color: #6B9DD5;
+    box-shadow: -4px 4px 39px -6px rgba(0,0,0,0.75);
+}
+.features-right-mini-div h4{
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #303030;
+    
+}
+.features-right-mini-div p{
+    font-size: 12px;
+}
